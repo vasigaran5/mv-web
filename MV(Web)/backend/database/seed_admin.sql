@@ -1,0 +1,3 @@
+-- Generate a password hash with PHP CLI: php -r "echo password_hash('YOUR-STRONG-PASSWORD', PASSWORD_DEFAULT), PHP_EOL;"
+-- Then insert the hash (do not store plaintext passwords):
+-- INSERT INTO users(name,email,password_hash,role) VALUES('Administrator','admin@example.com','PASTE_HASH_HERE','admin');
